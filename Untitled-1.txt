@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Mendefinisikan variabel untuk menyimpan informasi
+    char nama[] = "Nama Saya"; // A Fikri Haekal 
+    char alamat[] = "Alamat Saya"; // Pati Jawa Tengah 
+    char sekolah[] = "Asal Sekolah Saya"; // SMK N 2 Pati 
+    char alasan[] = "Alasan Saya Masuk Polines"; // Karena Polines Merupakan Politeknik Terbaik Nomor 3 Di Indonesia
+
+    // Mencetak informasi ke layar
+    printf("Nama: %s\n", nama);
+    printf("Alamat: %s\n", alamat);
+    printf("Asal Sekolah: %s\n", sekolah);
+    printf("Alasan Masuk Polines: %s\n", alasan);
+
+    return 0;
+}
